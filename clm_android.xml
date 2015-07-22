@@ -2,13 +2,13 @@
 <!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
 <extension type="component" version="2.5.0" method="upgrade">
 	<name>clm_android</name>
-	<creationDate>08.03.2013</creationDate>
+	<creationDate>22.01.2015</creationDate>
 	<author>CLM Projekt</author>
 	<copyright>(C) Copyright 2009-2013 by CLM Project</copyright>
 	<license>GPL</license>
 	<authorEmail>dc6iq@gmx.de</authorEmail>
 	<authorUrl>www.chessleaguemanager.de</authorUrl>
-	<version>1.0.2</version>
+	<version>3.0.2</version>
 	<description>
 		<![CDATA[
 		 <h3>CLM Android Komponente :</h3>

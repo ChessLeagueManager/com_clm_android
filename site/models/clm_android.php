@@ -915,7 +915,7 @@ class Clm_androidModelClm_android extends JModelItem
 			if ($FIDE_ID == "") {
 				$FIDE_ID = "NULL";
 			}
-			$cols = array('sid', 'snr', 'name', 'twz', 'NATrating', 'FIDEelo', 'titel', 'FIDEcco', 'FIDEid', 'mgl_nr', 'zps', 'turnier', 'birthYear', 'geschlecht', 'verein', 'published');
+			$cols = array('sid', 'snr', 'name', 'twz', 'start_dwz', 'FIDEelo', 'titel', 'FIDEcco', 'FIDEid', 'mgl_nr', 'zps', 'turnier', 'birthYear', 'geschlecht', 'verein', 'published');
 			$values = array($sid, $snr, "'" . $name . "'", $dwz, $dwz, $FIDE_Elo, "'" . $FIDE_Titel . "'", "'" . $FIDE_Land . "'", $FIDE_ID, $Mgl_Nr, "'" . $zps . "'", $tid, "'" . $year . "'", "'" . $Geschlecht . "'", "(SELECT Vereinname FROM #__clm_dwz_vereine WHERE sid=" . $sid . " AND ZPS='" . $zps . "')" , 1);
 			$query = $this->db->getQuery(true);
 			$query->insert($this->db->quoteName('#__clm_turniere_tlnr'));
