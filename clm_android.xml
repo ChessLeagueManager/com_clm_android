@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install SYSTEM "http://dev.joomla.org/xml/1.5/component-install.dtd">
+<extension type="component" version="2.5.0" method="upgrade">
+	<name>clm_android</name>
+	<creationDate>08.03.2013</creationDate>
+	<author>CLM Projekt</author>
+	<copyright>(C) Copyright 2009-2013 by CLM Project</copyright>
+	<license>GPL</license>
+	<authorEmail>dc6iq@gmx.de</authorEmail>
+	<authorUrl>www.chessleaguemanager.de</authorUrl>
+	<version>1.0.2</version>
+	<description>
+		<![CDATA[
+		 <h3>CLM Android Komponente :</h3>
+		 <p>Die Komponente erlaubt den Abruf und die Änderung von Daten aus dem Ligamanager CLM auf einer Android Applikation</p>
+		 <p><a target="_blank" href="http://www.chessleaguemanager.de">Projekt Homepage</a></p>
+		 <p>&copy; Fred Baumgarten</p>
+			 ]]>
+	</description>
+	
+	<files folder="site">
+		<filename>clm_android.php</filename>
+		<filename>controller.php</filename>
+		<filename>index.html</filename>
+		<!-- <folder>images</folder> -->
+		<folder>models</folder>
+		<folder>views</folder>
+		<folder>language</folder>
+	</files>
+
+	<administration>
+		<menu>CLM Android</menu>
+		<files folder="admin">
+			<filename>clm_android.php</filename>
+			<filename>index.html</filename>
+			<filename>changelog.txt</filename>
+			<folder>controllers</folder>
+			<folder>views</folder>
+		</files>
+	</administration>
+</extension>

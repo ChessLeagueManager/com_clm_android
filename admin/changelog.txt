@@ -1,0 +1,16 @@
+﻿CHANGELOG 2.5 com_clm_android ab 1.0.0
+------------
+
+Legend:
+* -> Security Fix
+# -> Bug Fix
+$ -> Language fix or change
++ -> Addition
+^ -> Change
+% -> Performance Fix
+- -> Removed
+! -> Note
+
+- - - - - 1.0.0 - [xx-xx-2013] - - - - - - - - - - - - - - - - - - - -
++ Initiale Revision
+
